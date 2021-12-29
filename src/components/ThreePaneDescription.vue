@@ -27,18 +27,19 @@
 
 <style scoped>
   .panes {
-      width: 90%;
-      margin-left: 5%;
-      margin-top: 62px;
+      width: 100%;
+      margin: 62px auto;
+      /* padding: auto; */
 
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: center;
   }
 
   .pane {
-    width: 30%;
-    margin: auto;
+    width: 370px;
+    margin: 0 3%;
   }
 
   .pane-pic {
