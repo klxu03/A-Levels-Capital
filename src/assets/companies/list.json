@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Give Campus",
+    "desc": "GiveCampus is an app that...",
+    "sector": "Technology/Education",
+    "site": "givecampus.com",
+    "img": "GiveCampus.png"
+  },
+  {
+    "name": "Yet Analytics",
+    "desc": "Yet Analytics is an app that...",
+    "sector": "Technology",
+    "site": "yetanalytics.com",
+    "img": "YetAnalytics.png"
+  }
+]

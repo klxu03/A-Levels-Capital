@@ -1,34 +1,38 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import NavBar from './components/NavBar.vue'
-import Hero from './components/Hero.vue'
-import VerticalSpacer from './components/VerticalSpacer.vue'
-import ThreePaneDescription from './components/ThreePaneDescription.vue'
-import Carousel from './components/Carousel.vue'
-import Footer from './components/Footer.vue'
+import NavBar from "./components/NavBar.vue";
+import Footer from "./components/Footer.vue";
 
+import LandingPage from "./pages/Landing.vue";
+import PortfolioPage from "./pages/Portfolio.vue";
 </script>
 
-<template>  
+<template>
   <NavBar />
-  <Hero />
-  <VerticalSpacer msg="What We Do" />
-  <ThreePaneDescription />
-  <VerticalSpacer msg="Testimonials " />
-  <Carousel />
-  <Footer />
 
+  <router-view />
+  <!-- <LandingPage /> -->
+  <!-- <PortfolioPage /> -->
+
+  <Footer />
 </template>
 
-<style>
+<style lang="scss">
+$port: #26254e;
+$danube: #6688c8;
+$kimberly: #716c93;
+$light: #fdfdfd;
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: IBM Plex Sans;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+
   margin-top: 0;
+
+  width: 100%;
   height: 100%;
 }
 </style>
